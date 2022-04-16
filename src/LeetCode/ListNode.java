@@ -1,5 +1,6 @@
 package LeetCode;
 
+// 链表节点数据结构
 public class ListNode {
     int val;
     ListNode next;
