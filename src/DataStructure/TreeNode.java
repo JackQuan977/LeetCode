@@ -5,6 +5,7 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
 
+    // 无参构造
     public TreeNode(){}
     public TreeNode(int val){
         this.val = val;
