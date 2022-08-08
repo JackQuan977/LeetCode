@@ -1,15 +1,6 @@
 package LeetCode;
 
 public class Solution206 {
-    public static class ListNode{
-        int val;
-        ListNode next;
-        public ListNode(){}
-        public ListNode(int x){
-            val = x;
-        }
-    }
-
     public static ListNode reverseList(ListNode head){
         ListNode pre = null;
         ListNode cur = head;
