@@ -1,11 +1,13 @@
 package LeetCode;
 
+import DataStructure.ListNode;
+
 public class Solution206 {
-    public static ListNode reverseList(ListNode head){
+    public static ListNode reverseList(ListNode head) {
         ListNode pre = null;
         ListNode cur = head;
 
-        while (cur != null){
+        while (cur != null) {
             ListNode next = cur.next;
             cur.next = pre;
             pre = cur;

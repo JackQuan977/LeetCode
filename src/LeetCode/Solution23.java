@@ -1,5 +1,7 @@
 package LeetCode;
 
+import DataStructure.ListNode;
+
 public class Solution23 {
     public static void main(String[] args) {
         ListNode node1 = new ListNode(1);
