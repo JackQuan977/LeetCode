@@ -1,6 +1,5 @@
 package DataStructure;
 
-import LeetCode.Solution206;
 
 /**
  * 单向链表
